@@ -1,0 +1,97 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.header-title {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navigation {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.main-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-marquee {
+    color: #333;
+}
+
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #032b0b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.form-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.page-footer {
+    background-color: #333;
+    color: rgb(185, 121, 121);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+    .registration-form {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .main-section {
+        padding: 40px;
+    }
+}
